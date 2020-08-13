@@ -3,14 +3,16 @@ README
 WeekDay4 FLask database/email/login/
 
 
-# to activate you VE
+# to activate your VE
 D:\Coding_Temple\week5\day1\Project>blog_july_env\scripts\activate.bat
 
 
-
+# need to do this before you run the first flask run of the day
 set FLASK_APP=app.py
 
 set FLASK_ENV=development
+
+
 
 pip install Flask-WTF
 
@@ -114,8 +116,23 @@ test_author.id
   Betty 12345 cindy.stevenson1+1@gmail.com
 
  # *********** Day 4
+#try below if things are weird
+ conda deactivate
 
 # to remove a user from the database 
 look at Week5  day4 screen shots
 
+ To remove a file from github
+git rm --cached app.db - this semmed to remove the app.db from the 
 
+# FOR Herocu
+
+create Procfile file
+pip install gunicorn pillow psycopg2
+
+#  this create a text file of all the versions of you modules
+pip freeze > requirements.txt 
+
+
+# handy command - this was the mac command
+"/usr/local/bin:$PATH"
